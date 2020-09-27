@@ -18,3 +18,11 @@ class Model{
 
 const c1= new Model();
 const c2= new Model();
+
+// delete : can delete specific values in an array/object
+delete obj.id
+console.log(obj);
+
+const arr=[1,2,3,4,5,6]
+delete arr[5];
+console.log(arr);   // o/p: [1,2,3,4,5,empty]
